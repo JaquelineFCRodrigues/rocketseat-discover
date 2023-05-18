@@ -1,14 +1,14 @@
-// Operadores de comparação estritamente igual e estritamente diferente
+// Precedência dos operadores
 
-// Irá comparar valores e tipos e retorna um Boolean como resposta à comparação
+// De cima para baixo, do mais importante ao menos importante.
 
-let one = 1
-let two = 2
-
-// === estritamente igual a
-console.log(one === "1");
-console.log(one === 1);
-
-// !== estritamente diferente de
-console.log(two !== "2");
-console.log(two !== 2);
+// * grouping                      ( )
+// * negação e incremento          ! ++ --
+// * multiplicação e divisão       * /
+// * adição e subtração            + -
+// * relacional                    < <= > >=
+// * igualdade                     == != === !==
+// * AND                           && 
+// * OR                            ||
+// * condicional                   ?:
+// * assignment (atribuição)       = += -= *= %= 
