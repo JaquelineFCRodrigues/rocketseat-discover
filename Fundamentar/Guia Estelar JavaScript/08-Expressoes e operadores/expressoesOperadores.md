@@ -114,3 +114,35 @@
 # Operadores de comparação estritamente igual e estritamente diferente
 
     Irá comparar valores e tipos e retorna um Boolean como resposta à comparação
+
+# Operadores de atribuição
+
+    Quando falamos em atribuição, queremos na verdade dizer assignment, que já vimos bastante, mas podemos também realizar diferentes tipos de atribuição, usando operadores aritméticos.
+
+# Operadores Lógicos
+
+    2 valores booleanos, quando verificados, resultará em verdadeiro ou falso.
+
+# Operador condicional ternário
+
+    Os operadores ternários, conhecidos como operadores de condição, como o nome sugere, são dependentes de condições e podem entregar valores diferentes com base nelas.
+
+    Funciona da seguinte forma;
+
+        condição ? valor1 : valor2
+
+# Operadores para string
+
+    Temos também os string operators, os operadores de string, e nós até já vimos um desses antes, o comparison operator, ou ==, para os mais íntimos.
+
+    Agora vamos ver sobre a concatenação, que é o retorno da união de duas strings.
+
+    Seu símbolo é o de + (positivo)
+
+# Falsy e truthy
+
+    O falsy é quando um valor é considerado falso em contextos que onde um booleano é obrigatório (condicionais e loops), já o truthy é o oposto, quando um valor é considerado verdadeiro (true) em contextos onde um booleano é obrigatório (condicionais e loops).
+
+# Precedência dos operadores
+
+    Nesta aula mostraremos a precedência dos operadores, ou seja, a ordem de importância de cada um deles.
