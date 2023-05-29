@@ -12,9 +12,9 @@
 // * menor que 60    -   F
 
 
-let nota = 59;
+let nota = 100;
 
-if (nota >=90) {
+if (nota >=90 && nota <=100) {
     console.log("Conceito A");
 } else if (nota <= 89 && nota >=80) {
     console.log("Conceito B");
@@ -22,7 +22,9 @@ if (nota >=90) {
     console.log("Conceito C");
 } else if (nota <= 69 && nota >=60) {
     console.log("Conceito D");
-} else {
+} else if (nota <= 59 && nota >=0) {
     console.log("Conceito F");
+} else {
+    console.log("Nota inválida");
 }
 
