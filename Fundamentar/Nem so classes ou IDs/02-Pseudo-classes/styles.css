@@ -1,0 +1,40 @@
+/* ul li:first-child {
+    font-weight: bold;
+    color: red;
+} */
+
+/* article p:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 18px;
+} */
+
+/* article p:nth-child(2) {
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+} */
+
+/* ul li:nth-child(odd) {
+    color:red;
+}
+
+ul li:nth-child(even) {
+    color:gray;
+} */
+
+/* a:hover {
+    color: red;
+}
+
+input:focus {
+    border-color: yellow;
+    outline: none;
+} */
+
+input:disabled {
+    background-color: green;
+}
+
+input:required {
+    background-color: red;
+}
