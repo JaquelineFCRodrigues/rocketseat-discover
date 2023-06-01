@@ -1,0 +1,92 @@
+/* * {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    border: 2px solid;
+    min-height: 100vh;
+
+    display: flex;
+}
+
+aside {
+    background: lightgreen;
+    flex: 1;
+}
+
+main {
+    background: lightblue;
+    flex: 2;
+
+    display: flex;
+    flex-direction: column;
+}
+
+main section:nth-child(1) {
+    background: lightgoldenrodyellow;
+    flex: 2;
+}
+
+main section:nth-child(2) {
+    background: lightsalmon;
+    flex: 0 80px;
+}
+
+main section:nth-child(3) {
+    background: lightpink;
+    flex: 1;
+} */
+
+
+.box {
+    display: flex;
+
+    border: 1px dashed red;
+}
+
+.box div {
+    
+    border: 1px solid ;
+}
+
+.box div:nth-child(1){
+    order: 0;
+}
+
+.box div:nth-child(2){
+    order: 0;
+}
+
+.box div:nth-child(3){
+    order: 0;
+}
+
+.box div:nth-child(4){
+    order: 0;
+}
+
+/* Flex-shrink*/
+
+/* .box div:nth-child(2),
+.box div:nth-child(3){
+    flex-shrink: 2;
+} */
+
+/* Flex-grow*/
+
+/* .box div:nth-child(2),
+.box div:nth-child(3) {
+    flex-grow: 1;
+}
+
+.box div:nth-child(1){
+    flex-grow: 2;
+} */
+
+/* Flex-basis*/
+
+/* .box div {
+    border: 1px solid ;
+    flex-basis: 25%;
+} */

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 30%;
+    height: auto;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+    justify-content: center;
+}

@@ -50,3 +50,88 @@ A caixa se torna flex, fazendo com que os elemnetos internos possam receber melh
 - Flex é uma dimensão (horizontal ou vertical)
 - podemos mudar a direção com `flex-direction`
 - valores: (row | row-reverse | column | column-reverse)
+
+## Multiplas Linhas
+
+- Flex-wrap
+- Podemos usar multi linhas
+- Cada nova linha, um novo flex container
+
+## Direção e multi linha em uma única propriedade
+
+- Flex-flow
+- shorthand
+- felx-direction || flex-wrap
+
+## Alinhamento dos itens no eixo principal
+
+### justify-content
+
+- Alinhamento dos elementos dentro do container
+- Distribuição dos elementos
+
+* valores
+
+- flex-start
+- flex-end
+- center
+- space-around
+- space-between
+- space-evenly
+
+## Alinhamento dos itens no eixo cruzado
+
+### align-items
+
+- Alinhamento dos elementos no eixo cruzado
+
+* valores
+
+- stretch
+- flex-start
+- flex-end
+- center
+
+## Espaço entre os elementos
+
+### Gap
+- Espaços entre os elementos
+
+## Valores
+Unidades de medidas
+fixas: px, pt
+flexíveis: %, em, rem
+
+# Propriedades para os Itens
+
+- flex-basis (mudar o tamanho do item) 
+- flex-grow (adapta e faz o item crescer)
+- flex-shrink (adapta e faz o item encolher)
+- flex (shorthand para os três anteriores)
+- order (como ordenar)
+
+## Largura e altura com flex-basis
+
+- Ficar sempre atento ao eixo pois ele é aplicado no eixo principal.
+
+## Crescimento e adaptação dos itens (flex-grow)
+
+- O crescimento do item dentro do container em relação aos espaços vazios.
+- Separa em "frações" ou "fragmentos" do espaço disponível.
+
+## Encolhimento e encaixe dos elementos (flex-shrink)
+
+- Encolher o item dentro do container.
+
+## Shorthand flex
+
+- shorthand
+- flex-grow flex-shrink flex-basis
+- podem ter 1, 2 ou 3 valores
+
+## Alterando tamanho de múltiplos itens
+
+## Ordenando itens
+
+- Order serve para ordenar elementos dentro de uma caixa.
+- Muda de maneira visual e não estrutural!
