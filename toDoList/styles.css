@@ -50,7 +50,7 @@ body {
     position: relative;
     float: right;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     background-color: rgb(20, 68, 156);
     border: none;
     color: #ffffff;
@@ -97,13 +97,29 @@ body {
 
 }
 
-.task button{
+.task button {
     background-color: rgb(20, 68, 156);
     font-size: 1rem;
+    color: #FFFFFF;
     border: none;
     cursor: pointer;
     outline: none;
     height: 100%;
     width: 40px;
     border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#edit-task-item {
+    background:rgb(20, 68, 156);
+    border: none;
+    outline: none;
+    color:#FFFFFF;
+    font-size: 1.2rem;
 }
