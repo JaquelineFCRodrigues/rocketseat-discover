@@ -21,7 +21,6 @@ buttonAddTasks.onclick = function(){
                     </i>
             </button>
             </div>
-             
         </div>
         `;
 
