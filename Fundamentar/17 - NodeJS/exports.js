@@ -1,0 +1,1 @@
+module.exports = "Enviando dados do meu módulo" // é possivel atribuir qualquer coisa

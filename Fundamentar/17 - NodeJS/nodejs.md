@@ -48,12 +48,39 @@ Node é single-threaded, non-blocking e asynchronous.
 
 # De onde veio e pra onde vai o NodeJS?
 
-# Configurando o Ambiente
+# Istalando Nodejs
 
-## Instalando o NodeJS
-
-## REPL
+# REPL
+- Read-Eval-Print-Loop
+- Escrever Javascript em um ambiente node dentro do terminal
+- Para entrar digite node no terminal
 
 ## VS Code
 
 # Iniciando na Prática
+
+## Executando o primeiro arquivo e entendendo globais
+
+Lembrar de sempre olhar a documentação no site no Node.
+
+## O que são e como utilizar módulos?
+
+Require é uma maneira de chamar módulos nativos, criados ou instalados no node.
+
+## Criando módulos
+
+## Pegando Informações do processo
+
+## Passando flags como argumento
+
+--name
+--greeting
+
+## Desafio
+* Crie 2 arquivos JavaScript.
+* O primeiro, irá exportar um função chamada getFlag() que receberá um argumento do tipo String.
+* Essa função deverá buscar dentro do array a flag e retornar o valor da flag.
+
+* O segundo irá importar a função e passar a flag desejada.
+
+* Iremos rodar no terminal o segundo arquivo passando as flags --name e --greeting para que seja impresso no terminal a saudação e o nome da pessoa.
