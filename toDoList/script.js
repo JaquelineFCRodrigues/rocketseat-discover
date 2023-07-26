@@ -34,7 +34,7 @@ function addTask() {
         tasks.appendChild(taskElement);
         inputAddTasks.value = '';
         saveTasksToLocalStorage();
-        bindEditAndDeleteEvents(taskElement);
+        editAndDeleteEvents(taskElement);
     }
 }
 
@@ -43,12 +43,6 @@ function editTask(taskItem, inputField) {
     const newText = inputField.value.trim();
     taskItem.textContent = newText;
     saveTasksToLocalStorage(); // update
-}
-
-// Função para excluir uma tarefa
-function deleteTask(taskElement) {
-    taskElement.remove();
-    saveTasksToLocalStorage();
 }
 
 // Função para vincular eventos de editar e excluir
@@ -110,6 +104,13 @@ function loadTasksFromLocalStorage() {
 
 // Vincular o evento de adicionar tarefa ao botão
 buttonAddTasks.addEventListener("click", addTask);
+
+// Vincular o evento de adicionar tarefa ao dar enter
+inputAddTasks.addEventListener("keyup", function(e) {
+    if (e.key === "Enter") {
+        addTask()
+    }
+});
 
 // Carregar tarefas do Local Storage ao carregar a página
 document.addEventListener('DOMContentLoaded', function() {

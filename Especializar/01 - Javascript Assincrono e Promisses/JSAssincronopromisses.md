@@ -106,3 +106,17 @@ Leitura de dados de uma API
 - Fulfilled: A promessa foi concluída com sucesso
 - Rejected: A promessa foi rejeitada, houve um erro
 - Settled: Seja com sucesso ou erro, ela foi finalmente concluída
+
+# Axios
+
+É uma biblioteca HTTP client baseada em Promises para ser usada tanto no browser quanto no node.
+É isomórfico (= pode rodar no navegador e no node.js com a mesma base de código). No lado do servidor usa o código nativo do node.js - o modulo http, enquanto no lado do cliente (navegador) usa XMLHttpRequests.
+
+	* Faz XMLHttpRequests do navegador
+	* Faz requisições http do node.js
+	* Suporta a API de Promessas
+	* Intercepta requisições e respostas
+	* Transforma os dados de requisições e de respostas
+	* Cancela requisições
+	* Automaticamente transforma dados para JSON
+	* Suporta proteções contra XSRF no lado do cliente
